@@ -4,22 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap" />
     <script type="text/javascript" src="https://messaging-app-stage.s3.amazonaws.com/chat-widget-bundle.js"></script>
   </head>
 
   <body>
-    <h1>1</h1>
     <script>
-      console.log(0);
       window.onload = () => {
-        console.log(1);
-        console.log('window.ChatWidget', window.ChatWidget);
         if (window.ChatWidget) {
-          console.log(2);
           window.ChatWidget.init({
             chatWidgetSettingId: 'chatWidgetSettingId'
           });
